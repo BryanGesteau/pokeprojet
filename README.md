@@ -3,9 +3,9 @@
 
 (A renseigner)
 - Groupe N° :
-- Nom Prenom
-- Nom Prenom
-- Nom Prenom
+- Di Loreto Romain
+- Lo Cascio Avicenne
+- Gesteau Bryan
 
 
 ## Récupération du projet
