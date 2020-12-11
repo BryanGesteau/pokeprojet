@@ -1,8 +1,7 @@
 # Projet Web Iut Info module Web 2020
 
 
-(A renseigner)
-- Groupe N° :
+- Groupe N° :G1
 - Di Loreto Romain
 - Lo Cascio Avicenne
 - Gesteau Bryan
