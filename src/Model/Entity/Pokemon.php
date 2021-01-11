@@ -13,6 +13,8 @@ use Cake\ORM\Entity;
  * @property int $height
  * @property int $weight
  * @property string $default_front_sprite_url
+ * @property string $default_back_sprite_url
+ * @property string $shiny_front_sprite_url
  * @property \Cake\I18n\FrozenTime $created
  * @property \Cake\I18n\FrozenTime $modified
  *

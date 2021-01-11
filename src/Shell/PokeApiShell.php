@@ -62,8 +62,9 @@ class PokeApiShell extends Shell
             $pokeApiData = $this->_getPokemonById($pokedexNumber);
             if (!$this->Pokemons->exists(['pokedex_number' => $pokedexNumber])) {
                 $this->_createPokemon($pokeApiData);
+                if($pokedexNumber % 10 == 0) $this->verbose("The pokemon {$pokedexNumber} was added in database");
             } else {
-                $this->verbose("The pokemon {$pokedexNumber} already exist in database");
+                if($pokedexNumber % 10 == 0) $this->verbose("The pokemon {$pokedexNumber} already exist in database");
                 $this->_updatePokemon($pokedexNumber, $pokeApiData);
             }
         }
