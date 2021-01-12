@@ -23,5 +23,6 @@
             <?= $this->Paginator->last(__('last') . ' >>') ?>
         </ul>
         <p><?= $this->Paginator->counter(__('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')) ?></p>
+        <?= $this->Html->link('Tableau de bord', ['action' => 'stats', ], ['escape' => false, 'class' => 'btn btn-sm btn-info', 'title' => __('Statistiques')]) ?>
     </div>
 </div>

@@ -44,6 +44,13 @@ class PokemonsController extends AppController
         $this->set(compact('pokemon'));
     }
 
+    public function stats(){
+        $Pokemons = $this->Pokemons->find('all');
+
+        
+        $this->set(compact('Pokemons'));
+    }
+
     /**
      * Delete method
      *
